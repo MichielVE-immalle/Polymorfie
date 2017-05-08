@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Canvas HorizontalAlignment="Left" Height="299" Margin="105,10,0,0" VerticalAlignment="Top" Width="402" Background="#FFE0E0E0"/>
+        <Button x:Name="cirkelButton" Content="Cirkel" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="squareButton" Content="Rechthoek" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
