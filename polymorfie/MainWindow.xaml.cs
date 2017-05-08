@@ -25,15 +25,20 @@ namespace polymorfie
             InitializeComponent();
         }
 
+
+
         private void squareButton_Click(object sender, RoutedEventArgs e)
         {
-            Rectangle rect = new Rectangle();
-            rect.Stroke = new SolidColorBrush(Colors.Black);
-            rect.Width = 50;
-            rect.Height = 50;
-            rect.Margin = new Thickness(5);
-            rect.Fill = new SolidColorBrush(Colors.Blue);
-            canvas.Children.Add(rect);
+            //Rectangle rect = new Rectangle();
+            //rect.Stroke = new SolidColorBrush(Colors.Black);
+            //rect.Width = 50;
+            //rect.Height = 50;
+            //rect.Margin = new Thickness(5);
+            //rect.Fill = new SolidColorBrush(Colors.Blue);
+            //canvas.Children.Add(rect);
+
+            Square recht = new Square(100, 100);
+            recht.DisplayOn(canvas);
         }
     }
 }
