@@ -14,6 +14,6 @@ namespace polymorfie
         protected int size = 75;
         protected SolidColorBrush Brush = new SolidColorBrush(Colors.Black);
 
-        //public abstract void DisplayOn(Canvas canvas);
+        public abstract void DisplayOn(Canvas canvas);
     }
 }
