@@ -40,5 +40,11 @@ namespace polymorfie
             Square recht = new Square(100, 100);
             recht.DisplayOn(canvas);
         }
+
+        private void cirkelButton_Click(object sender, RoutedEventArgs e)
+        {
+            Circle cirkel = new Circle(10, 10);
+            cirkel.DisplayOn(canvas);
+        }
     }
 }
